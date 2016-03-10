@@ -4,7 +4,9 @@ class: center, middle, riot
 
 ## Hands On
 
-![:scale 66%](img/riot.png)
+[Raphael Hiesgen](mailto:raphael.hiesgen@haw-hamburg.de), Peter Kietzmann, Sebastian Meiling, Thomas C. Schmidt
+
+![:scale 50%](img/riot.png)
 
 Hochschule für Angewandte Wissenschaften Hamburg
 

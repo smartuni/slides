@@ -4,7 +4,9 @@ class: center, middle, riot
 
 ## IoT communication with CoAP
 
-![:scale 66%](img/riot.png)
+Raphael Hiesgen, Peter Kietzmann, [Sebastian Meiling](mailto:sebastian.meiling@haw-hamburg.de), Thomas C. Schmidt
+
+![:scale 50%](img/riot.png)
 
 Hochschule für Angewandte Wissenschaften Hamburg
 
