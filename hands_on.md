@@ -35,7 +35,7 @@ Hochschule für Angewandte Wissenschaften Hamburg
   * [VirtualBox + Extensions](https://www.virtualbox.org)
   * [Vagrant](https://www.vagrantup.com)
 
-.bottom[*The vagrant image created by RIOT already includes most compilers and tools for flashing.*]
+*The vagrant image created by RIOT already includes most compilers and tools for flashing.*
 
 ---
 
@@ -67,10 +67,19 @@ $ BOARD=samr21-xpro make all flash term
 
 ---
 
+# Application Output
+
+* Press the reset button on the board
+* You should see a `Hello World!` message
+* Congratulations, you just flashed your first RIOT application! :-)
+
+---
+
 # Create Your Own Project
 
 * Copy the `hello-world` files to your project folder
-* Add your folder to the RIOT `Vagrantfile`
+* Sync your project folder using the VirtualBox UI
+* OR sync it via the `Vagrantfile` in RIOT
 
 ```sh
 ...
@@ -140,15 +149,8 @@ $ cd your/project
 $ BOARD=samr21-xpro make all flash term
 ```
 
----
-
-# Application Output
-
-* Press the reset button on the board
-* You should see
-  * a `Hello World!` message
-  * a blinking LED
-* Congratulations! You just build your first RIOT app :D
+* Press the reset button
+* In addition to the message, you should see a blining LED
 
 ---
 
