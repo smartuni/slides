@@ -92,7 +92,7 @@ config.vm.synced_folder "/path/to/PROJECT", "/home/vagrant/PROJECT"
 #include "xtimer.h"
 ```
 
-* ... and code for the LEDS
+* ... and code for the LEDs
 
 ```C
 for(int i = 0; i < 10; i++) {
