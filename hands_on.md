@@ -10,21 +10,20 @@ Hochschule für Angewandte Wissenschaften Hamburg
 
 ---
 
-# Important Links
+# Getting Started
 
-1. Code: [https://github.com/RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT)
-2. Wiki: [https://github.com/RIOT-OS/RIOT/wiki](https://github.com/RIOT-OS/RIOT/wiki)
-3. Mailing List: devel@riot-os.org
-4. IRC: irc.freenode.org #riot-os
-
----
-
-# First Steps
+### First Steps
 
 * Get a [GitHub](https://github.com) account
 * [Fork](https://help.github.com/articles/fork-a-repo/) the [RIOT](https://github.com/riot-os/riot) repository
 * Create a [branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) for your work through the GitHub UI
 
+### Important Links
+
+1. Code: [https://github.com/RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT)
+2. Wiki: [https://github.com/RIOT-OS/RIOT/wiki](https://github.com/RIOT-OS/RIOT/wiki)
+3. Mailing List: devel@riot-os.org
+4. IRC: irc.freenode.org #riot-osv
 ---
 
 # Development Environment
@@ -44,7 +43,7 @@ Hochschule für Angewandte Wissenschaften Hamburg
 * Open a terminal
 * Get the code & switch to your branch
 
-```sh
+```Shell
 $ git clone https://github.com/USERNAME/RIOT.git
 $ cd RIOT
 $ git checkout <working_branch>
@@ -52,14 +51,14 @@ $ git checkout <working_branch>
 
 * Start vagrant
 
-```sh
+```Shell
 $ vagrant up
 $ vagrant ssh
 ```
 
 * Compile and flash an example
 
-```sh
+```Shell
 $ cd RIOT/examples/hello-world
 $ # Connect a Atmel SAM R21 Xplained Pro board via USB
 $ BOARD=samr21-xpro make all flash term
@@ -81,11 +80,10 @@ $ BOARD=samr21-xpro make all flash term
 * Sync your project folder using the VirtualBox UI
 * OR sync it via the `Vagrantfile` in RIOT
 
-```sh
+```Ruby
 ...
 config.vm.synced_folder ".", "/home/vagrant/RIOT"
-# Add this line, syncing your PROJECT folder
-# to /home/vagrant/PROJECT
+# Add this line to sync your PROJECT folder to /home/vagrant/PROJECT
 config.vm.synced_folder "/path/to/PROJECT", "/home/vagrant/PROJECT"
 ...
 ```
@@ -120,13 +118,13 @@ for(int i = 0; i < 10; i++) {
 
 * Rename you application
 
-```sh
+```Makefile
 APPLICATION = my_project
 ```
 
 * Include the xtimer module
 
-```sh
+```Makefile
 USEMODULE += xtimer
 ```
 
@@ -136,7 +134,7 @@ USEMODULE += xtimer
 
 * Reload and connect to vagrant
 
-```sh
+```Shell
 $ cd /path/to/RIOT/
 $ vagrant reload
 $ vagrant ssh
@@ -144,7 +142,7 @@ $ vagrant ssh
 
 * Compile and flash your project
 
-```sh
+```Shell
 $ cd your/project
 $ BOARD=samr21-xpro make all flash term
 ```
@@ -158,20 +156,20 @@ $ BOARD=samr21-xpro make all flash term
 
 * Set your name and email
 
-```sh
+```Shell
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 ```
 
 * Look at your changes
 
-```sh
+```Shell
 $ git status
 ```
 
 * Add, commit and push files
 
-```sh
+```Shell
 $ git add FILE_1 FILE_2
 $ git commit
 $ git push
@@ -179,7 +177,7 @@ $ git push
 
 * Reset an uncommited file to the upstream
 
-```sh
+```Shell
 $ git checkout FILE
 ```
 
@@ -192,7 +190,7 @@ $ git checkout FILE
   * update your master branch
   * rebase your working branch to your master.
 
-```sh
+```Shell
 $ git checkout master
 $ git pull https://github.com/RIOT-OS/RIOT.git
 $ git checkout <working_branch>
