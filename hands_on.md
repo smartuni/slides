@@ -210,6 +210,6 @@ There are various sites online that explain git. Here are a few we like:
 
 ---
 
-class: center, middle
+class: center, middle, riot
 ![:scale 100%](img/riot.png)
-# www.riot-os.org
+## www.riot-os.org
