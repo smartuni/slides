@@ -1,10 +1,10 @@
-class: center, middle
+class: center, middle, riot
 
 # Bachelor PO - RIOT in the Internet of Things
 
-### Hands On
+## Hands On
 
-![:scale 70%](img/riot.png)
+![:scale 66%](img/riot.png)
 
 Hochschule für Angewandte Wissenschaften Hamburg
 
