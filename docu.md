@@ -2,7 +2,7 @@ class: center, middle, riot
 
 # Bachelor PO - RIOT in the Internet of Things
 
-## IoT communication with CoAP
+## Documentation and Tools
 
 Raphael Hiesgen, Peter Kietzmann, [Sebastian Meiling](mailto:sebastian.meiling@haw-hamburg.de), Thomas C. Schmidt
 

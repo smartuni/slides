@@ -8,7 +8,7 @@ class: center, middle, riot
 
 ![:scale 50%](img/riot.png)
 
-Hochschule für Angewandte Wissenschaften Hamburg
+[iNET](http://www.inet.haw-hamburg.de), Department Informatik, HAW Hamburg
 
 ---
 
@@ -213,5 +213,5 @@ There are various sites online that explain git. Here are a few we like:
 ---
 
 class: center, middle, riot
-![:scale 100%](img/riot.png)
-## www.riot-os.org
+[![:scale 100%](img/riot.png)](http://www.riot-os.org)
+## [www.riot-os.org](http://www.riot-os.org)
