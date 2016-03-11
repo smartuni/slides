@@ -79,21 +79,6 @@ $ BOARD=samr21-xpro make all flash term
 # Create Your Own Project
 
 * Copy the `hello-world` files to your project folder
-* Sync your project folder using the VirtualBox UI
-* OR sync it via the `Vagrantfile` in RIOT
-
-```Ruby
-...
-config.vm.synced_folder ".", "/home/vagrant/RIOT"
-# Add this line to sync your PROJECT folder to /home/vagrant/PROJECT
-config.vm.synced_folder "/path/to/PROJECT", "/home/vagrant/PROJECT"
-...
-```
-
----
-
-# Add a Blinking LED
-
 * Edit `main.c` and add new includes ...
 
 ```C
@@ -134,12 +119,18 @@ USEMODULE += xtimer
 
 # Flash and start your project
 
+* Sync your project folder using the VirtualBox UI OR via the `Vagrantfile` in RIOT
+
+```Ruby
+config.vm.synced_folder ".", "/home/vagrant/RIOT"
+# Add this line to sync your PROJECT folder to /home/vagrant/PROJECT
+config.vm.synced_folder "/path/to/PROJECT", "/home/vagrant/PROJECT"
+```
+
 * Reload and connect to vagrant
 
 ```Shell
-$ cd /path/to/RIOT/
-$ vagrant reload
-$ vagrant ssh
+$ vagrant reload && vagrant ssh
 ```
 
 * Compile and flash your project
@@ -149,7 +140,6 @@ $ cd your/project
 $ BOARD=samr21-xpro make all flash term
 ```
 
-* Press the reset button
 * In addition to the message, you should see a blining LED
 
 ---
