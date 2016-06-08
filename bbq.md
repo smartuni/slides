@@ -1,9 +1,10 @@
 class: center, middle, xcheck
 
-# Internet im ![:scale 33%](img/x-check.png)
+# Internet im ![:scale 45%](img/x-check.png)
 
 ## Willkommen zum iNET Sommergrillfest
 
 ![:scale 20%](img/inet.png)
 
-[iNET](http://www.inet.haw-hamburg.de), Department Informatik, HAW Hamburg
+[www.inet.haw-hamburg.de](http://www.inet.haw-hamburg.de)
+Internet Technologies Group, HAW Hamburg
