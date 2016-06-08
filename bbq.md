@@ -7,4 +7,5 @@ class: center, middle, xcheck
 ![:scale 20%](img/inet.png)
 
 [www.inet.haw-hamburg.de](http://www.inet.haw-hamburg.de)
+
 Internet Technologies Group, HAW Hamburg
