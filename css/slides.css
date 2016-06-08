@@ -53,6 +53,7 @@ h1, h2, h3 {
 .xcheck h4 { color: #f6f6fb; line-height: 0.7em;}
 
 .xcheck a {
+    font-family: 'Ubuntu Mono';
     color: #f6f6fb;
-    line-height: 0.6em;
+    line-height: 0.8em;
 }
