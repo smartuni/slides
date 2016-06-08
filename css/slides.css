@@ -49,8 +49,8 @@ h1, h2, h3 {
 }
 .xcheck h1 { color: #00bb51; line-height: 1.0em;}
 .xcheck h2 { color: #f6f6fb; line-height: 0.9em;}
-.xcheck h3 { color: #f6f6fb; line-height: 0.8em; font-family: 'Ubuntu Mono';}
-.xcheck h4 { color: #00bb51; line-height: 0.7em;}
+.xcheck h3 { color: #00bb51; line-height: 0.8em;}
+.xcheck h4 { color: #f6f6fb; line-height: 0.7em; font-family: 'Ubuntu Mono';}
 
 .xcheck a {
     color: #00bb51;

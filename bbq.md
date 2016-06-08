@@ -6,4 +6,4 @@ class: center, middle, xcheck
 
 ![:scale 25%](img/inet.png)
 
-### www.inet.haw-hamburg.de
+#### www.inet.haw-hamburg.de
