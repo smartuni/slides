@@ -6,6 +6,6 @@ class: center, middle, xcheck
 
 ## iNET Hofparty
 
-![:scale 50%](img/inet.png)
+![:scale 20%](img/inet.png)
 
 [iNET](http://www.inet.haw-hamburg.de), Department Informatik, HAW Hamburg
