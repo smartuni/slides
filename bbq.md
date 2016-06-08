@@ -1,4 +1,4 @@
-class: center, middle, riot
+class: center, middle, xcheck
 
 # Internet im X-Check
 
@@ -6,6 +6,6 @@ class: center, middle, riot
 
 ## iNET Hofparty
 
-![:scale 50%](img/riot.png)
+![:scale 50%](img/inet.png)
 
 [iNET](http://www.inet.haw-hamburg.de), Department Informatik, HAW Hamburg
