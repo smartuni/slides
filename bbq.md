@@ -4,8 +4,6 @@ class: center, middle, xcheck
 
 ## Willkommen zum iNET Sommergrillfest
 
-![:scale 20%](img/inet.png)
+![:scale 25%](img/inet.png)
 
-[www.inet.haw-hamburg.de](http://www.inet.haw-hamburg.de)
-
-Internet Technologies Group, HAW Hamburg
+## [www.inet.haw-hamburg.de](http://www.inet.haw-hamburg.de)
