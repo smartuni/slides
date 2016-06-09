@@ -1,8 +1,8 @@
 class: center, middle, xcheck
 
-# Internet im ![:scale 45%](img/x-check.png)
+# Das Internet im ![:scale 45%](img/x-check.png)
 
-## Das iNET Sommergrillfest
+## Die iNET Hofparty
 
 ![:scale 25%](img/inet.png)
 
