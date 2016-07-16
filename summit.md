@@ -2,7 +2,7 @@ class: center, middle, riot
 
 # RIOT Summit 2016
 
-## Using CoAP in and with RIOT
+## Using CoAP with RIOT
 
 Lennart Dührsen, Raphael Hiesgen, Sebastian Meiling, Lotte Steenbrink
 
