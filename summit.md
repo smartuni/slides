@@ -18,11 +18,6 @@ Lennart Dührsen, Raphael Hiesgen, Sebastian Meiling, Lotte Steenbrink
 
 * not about bashing, no offense
 
-# general
-
-* [http://coap.technology]()
-    - missing short intro on CoAP: what is it?
-
 ---
 
 # microcoap
