@@ -186,6 +186,8 @@ This board features a(n) native MCU.
 
 * use Github [pages](https://pages.github.com/) to create project [website](http://smartuni.github.io/examples)
     * create simple webpage from README
+    * one website per user/organisation or repository
+    * hosted by Github: {user|org}.github.io/[repo] 
 
 * remember: it's recommended to choose a license (GPL, MIT, ...)
 
