@@ -1,9 +1,9 @@
-class: center, middle, xcheck
+class: center, middle, riot
 
-# Das Internet im ![:scale 45%](img/x-check.png)
+## Das analoge BBQ - die iNET Hofparty
 
-## Die iNET Hofparty
+### Im Spannungsfeld der Digitalisierung
 
-![:scale 25%](img/inet.png)
+![:scale 33%](img/inet.png)
 
 #### [www.inet.haw-hamburg.de]

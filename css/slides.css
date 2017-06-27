@@ -35,7 +35,7 @@ h1, h2, h3 {
 .riot h1 { color: #3fa687; line-height: 1.0em;}
 .riot h2 { color: #f6f6fb; line-height: 0.9em;}
 .riot h3 { color: #3fa687; line-height: 0.8em;}
-.riot h4 { color: #f6f6fb; line-height: 0.7em;}
+.riot h4 { color: #f6f6fb; line-height: 0.7em; font-family: 'Ubuntu Mono';}
 
 .riot a {
     color: #f6f6fb;
